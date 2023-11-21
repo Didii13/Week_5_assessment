@@ -106,6 +106,33 @@ main {
     grid-row: 2/3;
     grid-column: 4/5;
 }
-.svg {
-    padding-left: 30px;
+@media screen (max-width:1400px) {
+    body{
+        width: 2.6vw;
+    }
+    
+}
+@media screen (max-width:1200px) {
+    body{
+        width: 2.4vw;
+    }
+    
+}
+@media screen (max-width:992px) {
+    body{
+        width: 2.2vw;
+    }
+    
+}
+@media screen (max-width:768px) {
+    body{
+        width: 2.0vw;
+    }
+    
+}
+@media screen (max-width:576px) {
+    body{
+        width: 1.8vw;
+    }
+    
 }
